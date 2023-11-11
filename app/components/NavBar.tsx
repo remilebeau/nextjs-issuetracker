@@ -15,7 +15,9 @@ const NavBar = () => {
       <ul className="flex space-x-6">
         {links.map((link) => (
           <li key={link.href}>
-            <Link href={link.href}>{link.label}</Link>
+            <Link className="hover:underline" href={link.href}>
+              {link.label}
+            </Link>
           </li>
         ))}
       </ul>
