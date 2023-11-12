@@ -37,3 +37,5 @@ next-env.d.ts
 
 # timestamp.txt
 timestamp.txt
+
+.env
